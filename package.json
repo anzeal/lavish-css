@@ -1,6 +1,6 @@
 {
   "name": "lavish-css-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lavish is free, open source, responsive CSS framework",
   "main": "./css/lavish.css",
   "scripts": {
