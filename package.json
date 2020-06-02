@@ -1,14 +1,14 @@
 {
-  "name": "lavish-css-framework",
+  "name": "lavish",
   "version": "0.0.12",
   "description": "Lavish is free, open source, responsive CSS framework",
   "main": "./css/lavish.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compileit": "node-sass sass/main.scss css/lavish.css"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lavish-io/lavish-css-framework.git"
+    "url": "git+https://github.com/lavish-io/lavish-css-framework.git"
   },
   "keywords": [
     "css",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/lavish-io/lavish-css-framework/issues"
   },
-  "homepage": "https://github.com/lavish-io/lavish-css-framework#readme"
+  "homepage": "https://github.com/lavish-io/lavish-css-framework#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
 }
