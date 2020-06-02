@@ -1,6 +1,3 @@
-@import url(../core/elements/buttons/button.css);
-@import url(../core/elements/table/table.css);
-@import url(../core/components/navbar.css);
 @import url("https://fonts.googleapis.com/css?family=Abel|Anton|Cabin|Dancing+Script|Indie+Flower|Lacquer|Lato|Lobster|Long+Cang|Lora|Ma+Shan+Zheng|Montserrat|Muli|Open+Sans|Oswald|Pacifico|Raleway|Roboto&display=swap");
 .bg__white {
   background-color: #fff; }
