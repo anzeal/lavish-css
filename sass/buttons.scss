@@ -30,6 +30,9 @@
     color: #fff;
     transition: all 0.5s;
   }
+  &::after {
+    border: none;
+  }
 }
 
 .gradient-black {
@@ -90,3 +93,39 @@ button:disabled  {
     background: $disabled;
   }
 }
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn:hover:hover::after {
+    transform: scale(1.2);
+    opacity: 0; }
+
+.btn:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--white {
+  background-color: #fff;
+  color: #777; }
+  .btn--white--white::after {
+    background-color: white; }
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s; }
+
+.btn--animated {
+  animation-name: moveInBotton;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: backwards;
+  backface-visibility: hidden; }

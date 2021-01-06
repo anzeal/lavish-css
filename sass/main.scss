@@ -4,6 +4,7 @@
 @import "card";
 @import "colors";
 @import "media";
+@import "divider";
 @import url("https://fonts.googleapis.com/css?family=Abel|Anton|Cabin|Dancing+Script|Indie+Flower|Lacquer|Lato|Lobster|Long+Cang|Lora|Ma+Shan+Zheng|Montserrat|Muli|Open+Sans|Oswald|Pacifico|Raleway|Roboto&display=swap");
 
 /* General Reset */
@@ -39,6 +40,11 @@ body {
 
 .font-indie {
   font-family: "Indie Flower", cursive;
+}
+
+.text_hero {
+  font-size: 4rem;
+  color: green;
 }
 
 .font-lacquer {

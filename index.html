@@ -4,77 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/lavish.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="./core/components/navbar.css"/>
+
     <title>Lavish CSSFramework</title>
 </head>
 <body>
-    <br class="container__full">
-        <h2 class="center-text" >Buttons</h2>
-        <div class="row ">
-            <div class="column center-text ">
-                <button class="btn btn-primary gradient-black">btn-primary</button>
+    <div class="container__full">
+        <L-Navbar>
+            <div class="nav__brand-box">
+                <img width="50px" src="img/lavish-logo.jpg" alt="logo" class="nav__brand-logo">
+                <h2>Lavish</h2>
             </div>
-            <div class="column center-text ">
-                <button class="btn btn-rounded btn-outlined black-btn">btn-outlined</button>
-            </div>
-            <div class="column">
-
-                <button class="btn btn-primary gradient-green">btn-primary</button>  
-            </div>
-            <div class="column">
-
-                <button class="btn btn-rounded gradient-black">btn-rounded</button>
-            </div>
-
-            <div class="column">
-
-                <button class="btn btn-rounded gradient-green">btn-rounded</button>
-            </div>
-        </div>
-    </br>
-        <h2 class="center-text" >Form</h2>
-        <div class="row bg__white ">
-            <div class="column">
-                <form>
-                    <div class="form__Box form__hover">
-                        <div class="title">
-                            Contact Us
-                        </div>
-                        <div class="input__Box">
-                            <span>Name</span>
-                            <input type="text" placeholder="Enter Your Name" class="input__Style" >
-                        </div>
-                        <div class="input__Box">
-                            <span>Email</span>
-                            <input type="text" placeholder="Enter Your Email" class="input__Style" >
-                        </div>
-                    </div>
-                </form>
-            </div>
-        
-       
+            <div class="nav__brand--text">Lavish</div>
+            <ul class="nav__item">
+                <li><a href="#" class="nav__item--link">
+                    
+                    Home
+                </a> 
+            </li>
             
-              
-        
-       <!--
+                <li>
+                    <a href="lavishdocs.html" class="nav__item--link">
 
-           <div class="column">
-               
-               <div class="card col-3-of-12 medium card-hover">
-                   <div class="card-header">
-                       <h4>Card header</h4>
-                    </div>  
-                    <div class="card-img">
-                        <img src="img/albert-01.jpg" alt="" />
-                    </div>
-                    <div class="card-footer">
-                        <h4>Card footer</h4>
-                    </div>
-                </div>
-                
+                        Documentation
+                    </a>
+                </li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </L-Navbar>
+        <header class="header">
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">Lavish</span>
+                    <span class="heading-primary--sub">creative css framework</span>
+                </h1>
+                <a href="lavishdocs.html" class="btn btn--white btn--animated">Get Started</a>
             </div>
-        </div>
-    --> 
-    </div>
-
+        </header>        
 </body>
 </html>

@@ -4,7 +4,8 @@
   "description": "Lavish is free, open source, responsive CSS framework",
   "main": "./css/lavish.css",
   "scripts": {
-    "compileit": "node-sass sass/main.scss css/lavish.css"
+    "start": "node-sass sass/main.scss css/lavish.css",
+    "dev": "npm run start"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,6 @@
   "homepage": "https://github.com/lavish-io/lavish-css-framework#readme",
   "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^5.0.0"
   }
 }

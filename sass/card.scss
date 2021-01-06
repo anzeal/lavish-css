@@ -1,10 +1,23 @@
+@import "colors";
+
+.centered {
+  align-content: center;
+  
+}
+
 .card  {
+  padding: 1rems;
+  background-color: rgb(255, 255, 255);
   position: relative;
   border-radius: 5px;
   box-shadow: 0px 1px 10px 0px rgba(5, 5, 5, 0.13);
-
-  &:medium {
-    width: 10rem;
+  
+  .choice1 {
+    color: $card_oneText;
+    background-color: $card_one;
+  }
+  .medium {
+    width: 5rem;
   }
   .large {
     width: 15rem;
@@ -12,47 +25,58 @@
   .small {
     width: 5rem;
   }
+  .small_Size{
+    width: 5rem;
+    height: 5rem;
+  }
 
   .card-header  {
     padding: 1.5rem;
+    font-size: 3rem;
+    text-align: center;
+    .choice1 {
+    background-color: $card_one;
+    color: $card_oneText;
+    }
 
     h4  {
       font-weight: bold;
       margin: 0;
     }
-    .card-textarea {
-        padding: 1.4rem;
-
-        p {
-            font-weight: bold;
-            margin: 0;
-        }
-    }
   }
+  .card-textarea {
+      padding: 1rem;
+        font-size: 1.5rem;
+          font-weight: bold;
+        text-align: center;
+  } 
 
   .card-img  {
-    overflow: hidden;
-    width: 4rem;
-
+    
+    position: relative;
+    align-content: center;
+   width: 260px;
     img  {
       position: relative;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      width: 100%;
+     
       display: block;
     }
   }
 
   .card-footer  {
     padding: 1.5rem 0 1.5rem 1.5rem;
+    .choice1 {
+    background-color: $card_one;
+    color: $card_oneText;
+    }
 
     h4  {
       font-weight: bold;
       margin: 0;
     }
   }
+
+
 }
 
 .card-no-footer  {
